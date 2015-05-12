@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+    <dimen name="activity_vertical_margin">10dp</dimen>
+    
+    <dimen name="titlebar_height">15sp</dimen>
+    
+    <dimen name="font_size_title">24sp</dimen>
+    <dimen name="font_size_text">16sp</dimen>
+    <dimen name="font_size_xstext">12sp</dimen>
+    
+    <dimen name="picturelist_width">90dp</dimen>
+    <dimen name="picturelist_height">120dp</dimen>
+    <dimen name="picturemain_width">90dp</dimen>
+    <dimen name="picturemain_height">180dp</dimen>
+    <dimen name="picture_blogitem_width">50dp</dimen>
+    <dimen name="picture_blogitem_height">100dp</dimen>
+    <dimen name="picture_blogdetail_width">90dp</dimen>
+    <dimen name="picture_blogdetail_height">120dp</dimen>
+    
+    <dimen name="defaultbutton_width">40dp</dimen>
+    <dimen name="defaultbutton_height">14dp</dimen>
+    <dimen name="button_pagenav_width">16dp</dimen>
+    <dimen name="button_pagenav_height">12dp</dimen>
+    
+    <dimen name="margin_narrow">6dp</dimen>
+    <dimen name="margin_wide">10dp</dimen>
+    <dimen name="margin_xwide">20dp</dimen>
+    
+    <dimen name="margin_pagenav">10dp</dimen>
+
+    <dimen name="etmessage_height">60dp</dimen>
+    <dimen name="pictureborder">1dp</dimen>
+    
+</resources>

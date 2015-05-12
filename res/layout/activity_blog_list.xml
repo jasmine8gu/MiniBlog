@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_bloglist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".BlogListActivity" >
+
+    <com.miniblog.SignBar
+            android:id="@+id/signbar"  
+            android:layout_width="fill_parent"   
+            android:layout_height="wrap_content" 
+	        android:layout_marginBottom="@dimen/margin_narrow" />  
+            
+    <TextView
+        android:id="@+id/tvNickName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_wide"
+        android:layout_marginRight="@dimen/margin_narrow"
+        android:layout_below="@id/signbar"
+        android:text=""
+        android:textColor="@color/bluetext"
+        android:textSize="@dimen/font_size_title" />
+
+    <ListView
+        android:id="@+id/lvBlog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvNickName"
+        android:layout_alignParentLeft="true" >
+
+    </ListView>
+
+    <Button
+        android:id="@+id/btWrite"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/tvNickName"
+        android:layout_toRightOf="@id/tvNickName"
+        android:background="@drawable/write"
+        android:onClick="onNew" />
+  
+</RelativeLayout>

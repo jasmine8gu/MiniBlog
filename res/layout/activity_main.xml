@@ -1,0 +1,134 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".PictureListActivity" >
+
+    <com.miniblog.SignBar
+            android:id="@+id/signbar"  
+            android:layout_width="fill_parent"   
+            android:layout_height="wrap_content" 
+	        android:layout_marginBottom="0dp" />  
+            
+    <LinearLayout
+        android:id="@+id/body"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/signbar"
+        android:padding="0dp" 
+        android:orientation="vertical">
+	    
+	<!-- row0 -->
+    <LinearLayout
+        android:id="@+id/row0"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="0dp" 
+        android:orientation="horizontal">
+	    
+    <com.miniblog.UserItem
+        android:id="@+id/useritem0" 
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" />  
+
+    <com.miniblog.UserItem
+		android:id="@+id/useritem1" 
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" />  
+        
+    <com.miniblog.UserItem
+        android:id="@+id/useritem2" 
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" />  
+    </LinearLayout>
+    
+	<!-- row1 -->
+    <LinearLayout
+        android:id="@+id/row1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="0dp" 
+        android:orientation="horizontal">
+    <com.miniblog.UserItem
+        android:id="@+id/useritem3" 
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" />  
+        
+    <com.miniblog.UserItem
+        android:id="@+id/useritem4" 
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" />  
+        
+    <com.miniblog.UserItem
+        android:id="@+id/useritem5" 
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" />  
+    </LinearLayout>
+    
+	<!-- row2 -->
+    <LinearLayout
+        android:id="@+id/row2"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="0dp" 
+        android:orientation="horizontal">
+    <com.miniblog.UserItem
+        android:id="@+id/useritem6" 
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" />  
+        
+    <com.miniblog.UserItem
+        android:id="@+id/useritem7" 
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" />  
+        
+    <com.miniblog.UserItem
+        android:id="@+id/useritem8" 
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" />  
+    </LinearLayout>
+      
+	<!-- row3 -->
+    <LinearLayout
+        android:id="@+id/row3"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="0dp" 
+        android:orientation="horizontal">
+    <com.miniblog.UserItem
+        android:id="@+id/useritem9" 
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" />  
+        
+    <com.miniblog.UserItem
+        android:id="@+id/useritem10" 
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" />  
+        
+    <com.miniblog.UserItem
+        android:id="@+id/useritem11" 
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" />  
+   	</LinearLayout>
+    
+	</LinearLayout>
+
+</RelativeLayout>

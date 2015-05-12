@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true" 
+    android:background="#ffffff"
+    tools:context=".SignInActivity" >
+    
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/welcomesignin"
+        android:textColor="@color/bluetext"
+        android:textSize="32sp" />
+
+    <ImageView
+        android:id="@+id/ivLine"
+        android:src="@drawable/line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp" 
+        android:layout_below="@id/tvWelcome"
+        android:contentDescription="@string/picturedesc"
+        android:padding="0dp" />
+
+    <Button
+        android:id="@+id/btSignIn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btSignup"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="4dp"
+        android:text="@string/signin"
+        android:textColor="@color/defaulttext"
+        android:textSize="@dimen/font_size_title" />
+
+    <Button
+        android:id="@+id/btSignup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="4dp"
+        android:text="@string/pleasesignup"
+        android:textColor="@color/defaulttext" 
+        android:textSize="@dimen/font_size_title" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ivLine"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textSize="@dimen/font_size_text" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/etEmail"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textSize="@dimen/font_size_text" />
+
+    <TextView
+        android:id="@+id/tvForgetPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etPassword"
+        android:layout_below="@id/etPassword"
+        android:text="@string/forgetpassword"
+        android:textColor="@color/lightyellow" />
+
+</RelativeLayout>

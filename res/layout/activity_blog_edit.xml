@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    tools:context=".BlogEditActivity" >
+
+    <com.miniblog.SignBar
+        android:id="@+id/signbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/ivPicture"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/picturemain_height"
+        android:layout_below="@id/signbar"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg"
+        android:contentDescription="@string/picturedesc"
+        android:padding="@dimen/pictureborder" />
+
+    <Button
+        android:id="@+id/btPicture"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/ivPicture"
+        android:layout_alignParentRight="true"
+        android:layout_margin="4dp"
+        android:background="@drawable/edit"
+        android:onClick="onPicture"/>
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivPicture"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:inputType="text"
+        android:hint="@string/title"
+        android:textColor="@color/bluetext"
+        android:textSize="@dimen/font_size_title" />
+    
+    <EditText
+        android:id="@+id/etContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/lbInfo"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:hint="@string/content"
+        android:lines="6"
+        android:textSize="@dimen/font_size_text" />
+
+    <TextView
+        android:id="@+id/lbInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/etTitle"
+        android:text="@string/nickname"
+        android:textColor="@color/greytext"
+        android:textSize="@dimen/font_size_text" />
+
+    <Button
+        android:id="@+id/btSave"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/save"
+        android:onClick="onSave" />
+
+</RelativeLayout>

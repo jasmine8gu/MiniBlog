@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="#ff0080ff" >
+  
+	<TextView
+	    android:id="@+id/tvAppName"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:text="@string/app_name"
+	    android:textColor="@color/whitetext"
+	    android:textSize="@dimen/font_size_title" />
+
+    <TextView
+	    android:id="@+id/tvSignedInUser"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignBottom="@+id/tvAppName"
+	    android:text=""
+	    android:textColor="@color/lightyellow"
+	    android:textSize="@dimen/font_size_title" />
+	
+	<Button
+	    android:id="@+id/btProfile"
+	    android:layout_width="30dp"
+	    android:layout_height="50dp"
+	    android:layout_alignBottom="@+id/tvAppName"
+	    android:layout_marginRight="@dimen/margin_wide"
+	    android:layout_toLeftOf="@+id/btSignout"
+	    android:background="@drawable/profile" />
+
+	<Button
+	    android:id="@+id/btSignout"
+	    android:layout_width="30dp"
+	    android:layout_height="50dp"
+	    android:layout_alignBottom="@+id/tvAppName"
+	    android:layout_alignParentRight="true"
+	    android:background="@drawable/quit" />
+
+	<TextView
+	    android:id="@+id/tvSignin"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBottom="@+id/tvAppName"
+	    android:layout_alignParentRight="true"
+	    android:text="@string/signin"
+	    android:textColor="@color/whitetext"
+	    android:textSize="@dimen/font_size_text" 
+	    android:visibility="visible"/>
+
+</RelativeLayout>  

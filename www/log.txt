@@ -1,0 +1,4 @@
+Begin
+UserList
+select user.id, nickname, user.pictureid, picture.url from user left join picture on user.pictureid=picture.id order by updatedatetime desc limit 0, 12
+End

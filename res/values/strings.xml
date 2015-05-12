@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings"></string>
+    <string name="app_name">MiniBlog</string>
+    <string name="copyright">copyright©JasmineGu All rights reserved.</string>
+    <string name="button_enter">Enter</string>
+    <string name="signin">Signin</string>
+    <string name="upload">Upload</string>
+    <string name="nickname">Nickname</string>
+    <string name="profile">Profile</string>
+    <string name="exit">Signout</string>
+    <string name="email">Email</string>
+    <string name="email1">Email(Non modified)</string>
+    <string name="location">Location</string>
+    <string name="zero">0</string>
+    <string name="confirm">OK</string>
+    <string name="save">Save</string>
+    <string name="commentmaxpicture">Maxmium</string>
+    <string name="commentmaxpicture1">photos</string>
+    <string name="welcomesignin">Welcom signin</string>
+    <string name="password">Password</string>
+    <string name="forgetpassword">Forgot password</string>
+    <string name="pleasesignup">New User</string>
+    <string name="welcomenewuser">Welcome new user</string>
+    <string name="confirmpassword">Confirm password</string>
+    <string name="commentretrievepassword">We will send your password to your email</string>
+    <string name="browse">Browse</string>
+    <string name="picturedesc">Content Description</string>
+    <string name="info">Information</string>
+    <string name="fail">Error</string>
+    <string name="action">Action</string>
+    <string name="savesuccess">Save profile success</string>
+    <string name="savefail">Save profile fail</string>
+    <string name="picturedeletesuccess">Delete success</string>
+    <string name="picturedeletefail">Delete fail</string>
+    <string name="sendemailsuccess">Send email success. Please check your email and get back your password</string>
+    <string name="sendemailfail">Send email fail</string>
+    <string name="emailpassordempty">Empty email or password</string>
+    <string name="emailpassordinvalid">Invalid email or password</string>
+    <string name="nicknameempty">Empty nickname</string>
+    <string name="nicknametoolong">Nickname too long. At most 32 characters or 16 chinese characters</string>
+    <string name="emailempty">Empty email</string>
+    <string name="emailtoolong">Email too long. At most 32 characters</string>
+    <string name="passwordempty">Empty password</string>
+    <string name="passwordtoolong">Password too long. At most 32 characters</string>
+    <string name="confirmpasswordempty">Empty confirm password</string>
+    <string name="passwordnotmatch">Password not match</string>
+    <string name="emailduplicate">The email address already registered</string>
+    <string name="gendertoolong">Gender too long. At most 2 characters</string>
+    <string name="breedtoolong">Breed too long. At most 32 characters</string>
+    <string name="pictureuploading">Picture uploading......</string>
+    <string name="pictureuploadsuccess">Upload success</string>
+    <string name="pictureuploadfail">Upload fail</string>
+    <string name="blog">MiniBlog</string>
+    <string name="comments">Comments</string>
+    <string name="comment">Post</string>
+    <string name="sms">Message</string>
+    <string name="follow">Follow</string>
+    <string name="signinforcomments">Please signin first then post your comment</string>
+    <string name="total">Total</string>
+    <string name="commentempty">Comment empty</string>
+    <string name="commenttoolong">Comment too long, maxmium 128 letters</string>
+    <string name="commentfail">Post comment fail</string>
+    <string name="commentsuccess">Post comment success</string>
+
+    <string name="blogtitle">Title</string>
+    <string name="blogcontent">Content</string>
+    <string name="addnew">New</string>
+    <string name="edit">Edit</string>
+    
+    <string name="titleempty">Title empty</string>
+    <string name="titletoolong">Title too long, maxmium 32 letters</string>
+    <string name="contentempty">Content empty</string>
+    <string name="contenttoolong">Content too long, maxmium 280 letters</string>
+
+    <string name="blogsavefail">Save blog fail</string>
+    <string name="blogsavesuccess">Save blog success</string>
+    
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string name="breed">Breed</string>
+    <string name="done">Done</string>
+    <string name="empty"></string>
+    
+    <string name="title">Title</string>
+    <string name="content">Content</string>
+    <string name="signup">Signup</string>
+    <string name="signupfail">Signup failed! Please try again later!</string>
+</resources>

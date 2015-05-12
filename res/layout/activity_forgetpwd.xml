@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    tools:context=".ForgetPwdActivity" >
+
+    <TextView
+        android:id="@+id/tvForgetPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etEmail"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:text="@string/forgetpassword"
+        android:textColor="@color/bluetext"
+        android:textSize="@dimen/font_size_title" />
+    
+    <ImageView
+        android:id="@+id/ivLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvForgetPassword"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/picturedesc"
+        android:padding="0dp"
+        android:src="@drawable/line" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ivLine"
+        android:layout_margin="10dp"
+        android:background="#ffffffff"
+        android:inputType="textEmailAddress"
+        android:textSize="@dimen/font_size_text" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/lbInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/etEmail"
+        android:layout_margin="10dp"
+        android:text="@string/commentretrievepassword"
+        android:textColor="@color/greytext"
+        android:textSize="@dimen/font_size_text" />
+
+    <Button
+        android:id="@+id/btOK"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/lbInfo"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/defaultbutton"
+        android:text="@string/confirm"
+        android:textColor="@color/defaulttext"
+        android:textSize="@dimen/font_size_text" />
+
+</RelativeLayout>

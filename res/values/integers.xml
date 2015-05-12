@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="useritem">100</integer>
+    <integer name="userdetail_picture">300</integer>
+    <integer name="profile_picture">400</integer>
+    <integer name="comment_item">500</integer>
+    <integer name="bloglist_item">600</integer>
+    <integer name="blogdetail_comment">700</integer>
+</resources>
+
